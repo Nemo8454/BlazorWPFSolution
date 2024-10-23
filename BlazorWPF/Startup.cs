@@ -21,6 +21,8 @@ public static class Startup
         services.AddWpfBlazorWebView();
         services.AddSingleton<WeatherForecastService>();
 
+        services.AddAntDesign();
+
 #if DEBUG
         services.AddBlazorWebViewDeveloperTools();
 #endif
